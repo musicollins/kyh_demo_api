@@ -1,3 +1,6 @@
+/**
+ * Configuring MariaDB to be used locally
+ */
 const mariadb = require("mariadb");
 
 const pool = mariadb.createPool({
